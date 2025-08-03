@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>JustGig Helpdesk</title>
+  <title>Just Gig Retell AI Helpdesk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background: #3e1850; /* Deep purple */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+    }
+    .container {
+      text-align: center;
+      margin-top: 12vh;
+    }
+    .main-title {
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-bottom: 0.5rem;
+    }
+    .highlight {
+      color: #BE00ED;
+    }
+    .subtext {
+      color: #d2c4e0;
+      font-size: 1.15rem;
+      font-weight: 400;
+      margin-bottom: 4rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (max-width: 600px) {
+      .main-title { font-size: 1.7rem; }
+      .subtext { font-size: 1rem; }
+      .container { margin-top: 6vh; }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <div class="main-title">
+      <span class="highlight">Just Gig</span> Retell AI Helpdesk
+    </div>
+    <div class="subtext">
+      Click button below to activate the chat widget designed to answer from a knowledge base and escalate to support if needed.
+    </div>
+  </div>
   <!-- Retell Chat Widget -->
   <script
     id="retell-widget"
